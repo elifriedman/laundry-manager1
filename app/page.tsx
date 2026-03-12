@@ -290,7 +290,7 @@ export default function HomePage() {
 
       {/* All tasks */}
       <section>
-        <h2 className="text-lg font-bold mb-3 border-b pb-1">משימות כביסה</h2>
+        <h2 className="text-lg font-bold mb-3 border-b pb-1">כביסות שהוקצו</h2>
         {allTasks.length === 0 ? (
           <p className="text-gray-400 text-sm">אין משימות עדיין</p>
         ) : (
